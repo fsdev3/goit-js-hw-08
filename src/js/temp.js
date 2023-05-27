@@ -9,6 +9,15 @@ window.addEventListener('load', onLoad);
 function onLoad() {
   let lastTime = localStorage.getItem(CURRENT_TIME) || 0;
   player.setCurrentTime(lastTime);
+  // if (lastTime) {
+  //     player.setCurrentTime(lastTime);
+  // }
+
+  //   if (lastTime === null) {
+  //     lastTime = 0;
+  //   }
+
+  //   player.setCurrentTime(lastTime);
 }
 
 player.on(
